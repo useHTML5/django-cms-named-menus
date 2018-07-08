@@ -11,6 +11,8 @@ Installation
 
 2. Add ``cms_named_menus`` to INSTALLED_APPS
 
+3. Run ``./manage.py migrate``
+
 
 Usage
 -----
