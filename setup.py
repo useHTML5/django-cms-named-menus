@@ -22,6 +22,6 @@ setup(
         'django-classy-tags',
         'django-cms>=3.3',
         'jsonfield>=1.0.0',
-        'django-autoslug>=1.7.2',
+        'django-autoslug>=1.9.3',
     ],
 )
