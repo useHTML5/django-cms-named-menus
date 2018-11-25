@@ -24,7 +24,7 @@
 <section class="pages">
 
     <div class="selected">
-        <h3>Selected Pages</h3>
+        <h3>Меню</h3>
         <aside class="menu-pages dd">
             {%if menu_pages %}
                 <ol class="dd-list">
@@ -37,13 +37,13 @@
     </div>
 
     <div class="available">
-        <h3>Available Pages</h3>
+        <h3>Доступные страницы</h3>
         <div class='form-row'>
 			<div class="checkbox-row">
 				<input id="include_child_items" type="checkbox">
-				<label  class="vCheckboxLabel" for="include_child_items">Include Child Items?</label>
+				<label  class="vCheckboxLabel" for="include_child_items">Переносить с под страницами</label>
 			</div>
-        </div>        
+        </div>
         <aside class="available-pages dd">
             <ol class="dd-list">
                 {% for page in available_pages %}

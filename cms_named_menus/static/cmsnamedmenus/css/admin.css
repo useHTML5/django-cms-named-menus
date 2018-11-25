@@ -1,5 +1,4 @@
 .pages {
-  padding-left: 98px;
 }
 .pages:before,
 .pages:after {
@@ -18,7 +17,7 @@
   clear: both;
 }
 .pages > div {
-  width: 48%;
+  width: 49%;
   float: left;
   min-height: inherit;
 }
